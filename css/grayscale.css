@@ -101,13 +101,9 @@ a {
         #mainNav .nav-link.active:hover {
           color: white; } }
 
-.overlay {
+.bg-overlay {
     background: rgba(0,50,5,0.6);
-    z-index: 1;
-    height: 100%;
-    width: auto;
-    top: 0;
-    left: 0;
+    background-size: cover;
 }
 
 .masthead {
@@ -169,7 +165,7 @@ a {
 
 .download-section {
   color: white;
-  background: url("../img/bg-vid.gif") no-repeat center center scroll;
+  background: url("../img/intro-bg.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
