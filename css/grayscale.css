@@ -4,12 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 body {
-  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Futura', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   position: relative;
   width: 100%;
   height: 100%;
-  color: white;
-  background-color: black; }
+  color: black;
+  background-color: white; }
 
 html {
   width: 100%;
@@ -23,12 +23,12 @@ h5,
 h6 {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
-  margin: 0 0 35px;
+  margin: 0 0 20px;
   letter-spacing: 1px;
   text-transform: uppercase; }
 
 p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   margin: 0 0 25px; }
   @media (min-width: 768px) {
@@ -46,12 +46,20 @@ a {
     text-decoration: none;
     color: #1d9b6c; }
 
+#form-bg {
+    max-height: 20em;
+    border-radius: 10px;
+    padding: 30px 20px 20px 20px;
+    background-color: rgba(1000,1100,1000,0.3);
+    color: white;
+}
+
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: black; }
+  background-color: forestgreen; }
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
@@ -86,21 +94,31 @@ a {
         padding-top: 10px;
         padding-bottom: 10px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        background: black; }
+        background: forestgreen; }
       #mainNav .nav-link.active {
         outline: none;
         background-color: rgba(255, 255, 255, 0.3); }
         #mainNav .nav-link.active:hover {
           color: white; } }
 
+.overlay {
+    background: rgba(0,50,5,0.6);
+    z-index: 1;
+    height: 100%;
+    width: auto;
+    top: 0;
+    left: 0;
+}
+
 .masthead {
   display: table;
   width: 100%;
   height: auto;
   padding: 200px 0;
-  text-align: center;
+  text-align: left;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+  background:
+      url("../img/bg-vid2.gif") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -144,9 +162,14 @@ a {
   padding-top: 150px;
   padding-bottom: 150px; }
 
+.abouticons {
+    max-height:10em;
+    padding-bottom: 1.5em;
+}
+
 .download-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background: url("../img/bg-vid.gif") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -171,17 +194,17 @@ a {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
-  border-radius: 0; }
+  border-radius: 10; }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
+  color: white;
+  border: 1px solid white;
   background-color: transparent; }
   .btn-default:focus, .btn-default:hover {
-    color: black;
-    border: 1px solid #42DCA3;
+    color: white;
+    border: 1px solid forestgreen;
     outline: none;
-    background-color: #42DCA3; }
+    background-color: forestgreen; }
 
 ul.banner-social-buttons {
   margin-top: 0; }

@@ -8,10 +8,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Grayscale - Start Bootstrap Theme</title>
+    <title>Queen's Rideshare</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -19,7 +19,10 @@
     <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
+    <link rel="icon" 
+      type="image/png" 
+      href="img/qsharelogo.png">
 
 </head>
 
@@ -27,7 +30,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand" href="#page-top"><img src="img/qsharelogo.png" style="max-height: 40px;"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu <i class="fa fa-bars"></i>
         </button>
@@ -37,10 +40,7 @@
                     <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#download">Download</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="#download">Get Updates</a>
                 </li>
             </ul>
         </div>
@@ -48,16 +48,28 @@
 
     <!-- Intro Header -->
     <header class="masthead">
-        <div class="intro-body">
+        <div class="intro-body overlay">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h1 class="brand-heading">Grayscale</h1>
-                        <p class="intro-text">A free, responsive, one page Bootstrap theme.
-                            <br>Created by Start Bootstrap.</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+                    <div class="col-lg-6 mx-auto" style="text-align: center;">
+                        <h1 class="brand-heading">QShare</h1>
+                        <p class="intro-text" style="margin-left: 20px;">Inter-city Carpool for University Students
+                            <br></p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div id="form-bg">
+                            <h4>Sign Up</h4>
+                            <p>Be the first to know when we release.</p>
+                            <form action="mailto:elaineyngao@gmail.com" method="post" enctype="text/plain">
+                                  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <div class="form-inline">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -67,12 +79,28 @@
     <!-- About Section -->
     <section id="about" class="content-section text-center">
         <div class="container">
+           <div class="col-md-12 mx-auto">
+               <h1>
+                   QShare is
+               </h1>
+                  <p>
+                A platform for students to post or find rides. It's easy- Just log in using your Facebook account.
+               </p>
+               <p></p>
+           </div>
             <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>About Grayscale</h2>
-                    <p>Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                    <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                    <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with SASS and LESS files for easy customization!</p>
+                <div class="col-md-4 mx-auto">
+                   <h2 style="padding-top: 1em;">Faster</h2>
+                   <img class="abouticons" src="img/002-stopwatch.png">
+                    <p>Filter rides by date and location. Riders don't have to sift through ride offers, and drivers can ensure that their posts don't get lost in cyberspace.</p> </div>
+                    <div class="col-md-4 mx-auto">
+                       <h2 style="padding-top: 1em;">Safer</h2>
+                       <img class="abouticons" src="img/003-seatbelt.png">
+                        <p>Both drivers and riders receive ratings, which helps everyone travel with a greater peace of mind.</p></div>
+                    <div class="col-md-4 mx-auto">
+                    <h2 style="padding-top: 1em;">Eco-friendlier</h2>
+                    <img class="abouticons" src="img/001-earth-day.png">
+                    <p>Carpooling means saving money, making new karaoke friends, and driving toward a cleaner planet.</p>
                 </div>
             </div>
         </div>
@@ -82,20 +110,20 @@
     <section id="download" class="download-section content-section text-center">
         <div class="container">
             <div class="col-lg-8 mx-auto">
-                <h2>Download Grayscale</h2>
-                <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                <h2>Coming Soon</h2>
+                <p>Enter your email to be notified when we go live.</p>
+                <a href="#page-top" class="btn btn-default btn-lg">Sign Up</a>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact Section
     <section id="contact" class="content-section text-center">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2>Contact Start Bootstrap</h2>
-                    <p>Feel free to leave us a comment on the <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale template overview page</a> on Start Bootstrap to give some feedback about this theme!</p>
+                    <h2>Get in Touch</h2>
+                    <p>We want to hear from you!</p>
                     <ul class="list-inline banner-social-buttons">
                         <li class="list-inline-item">
                             <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
@@ -111,14 +139,17 @@
             </div>
         </div>
     </section>
+    
+    -->
 
-    <!-- Map Section -->
+    <!-- Map Section
     <div id="map"></div>
+    -->
 
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2017</p>
+            <p>Copyright &copy; QShare 2017</p>
         </div>
     </footer>
 
